@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>My First Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <style>
-        table, th, td {
-            border: 2px solid rgb(175, 200, 238);
-            border-collapse: collapse;
-            margin: 0 auto;
-        }
-    </style>
-   <section>
-    <h3> <center> DATA DIRI SUAMIK </center> </h3>
-    <img src="meerqeen.jfif" style="width: 10%; margin: 60px auto; display: block;">
-    <table style="border: 2px solid; text-align: left; margin: 0px auto;">
-        <tr>
-          <th>Nama</th>
-          <td>:</td>
-          <td>Muhammad Shameer Shauqeen</td>
-        </tr>
-        <tr>
-            <th>Tempat Tanggal Lahir</th>
-            <td>:</td>
-            <td>4 Juni 2001</td>
-        </tr>
-        <tr>
-            <th>Nama Panggilan</th>
-            <td>:</td>
-            <td>Sayang</td>
-        </tr>
-        <tr>
-            <th>cita-cita</th>
-            <td>:</td>
-            <td>menjadi suami idaman nci</td>
-        </tr>
-        <tr>
-            <th>Umur</th>
-            <td>:</td>
-            <td>21 tahun</td>
-        </tr>
-    </table>
-</section>
-    
-    <footer>
-        <!-- BLOK FOOTER MEERQEEN -->
-    </footer>
+    <!-- Ini adalah header -->
+    <header>
+        <h1>Belajar Membuat Layout Dengan HTML Dan CSS</h1>
+    </header>
+
+    <!-- Ini adalah navigasi menu -->
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+    </nav>
+</body>
+<!-- Ini adalah container -->
+<div id="container">
+    <section class="kiri">
+        <div class="content">
+            <h3>HTML</h3>
+            <p>
+                HTML adalah bahasa standar pemrogaman yang digunakan untuk membuat halaman website, yang diakses melalui internet. Singkatan dari "Hypertext Markup Language" atau "bahasa markup".
+            </p>
+            <button>Read More...</button>
+        </div>
+        <div class="content">
+            <h3>CSS</h3>
+            <p>
+                CSS adalah salah satu bahasa yang wajib Anda ketahui saat belajar membuat website. Tanpanya, tampilan website akan kurang menarik, dan perlu upaya lebih untuk melakukan perubahan pada elemen tampilan. 
+            </p>
+            <button>Read More...</button>
+        </div>
+    </section>
+
+    <section class="kanan">
+        <div class="content2">
+            <h3>CATEGORY</h3>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Bootstrap</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">MYSQL</a></li>
+            <li><a href="#">Laravel</a></li>
+        </div>
+    </section>
+</div>
+
+<!-- ini adalah footer -->
+<footer>
+    <h4> Copyright PSTI 2022</h4>
+</footer>
 </body>
 </html>
